@@ -17,6 +17,6 @@ public class Service1Application {
 	}
 	@GetMapping("/test")
 	public String callservice() {
-		return "call git changes service1";
+		return "call git * * * *  service1";
 	}
 }
