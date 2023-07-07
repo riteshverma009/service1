@@ -17,6 +17,6 @@ public class Service1Application {
 	}
 	@GetMapping("/test")
 	public String callservice() {
-		return "call git * * * *  service1";
+		return "code commit by jenkin pipwlines service1";
 	}
 }
